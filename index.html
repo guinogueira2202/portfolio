@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
@@ -12,7 +13,7 @@
       <nav class="cabecalho__menu">
         <a class="cabecalho__menu__link" href="index.html">Home</a>
         <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-        <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+        <a class="cabecalho__menu__link--download" href="assets\cv_guinogueira-dev.pdf" download>Download CV</a>
       </nav>
     </header>
     <main class="apresentacao">
@@ -31,17 +32,14 @@
         <div class="apresentacao__links">
           <h3 class="apresentacao__links__subtitulo">Acesse minhas redes:</h3>
           <a class="apresentacao__links__navegacao" href="https://github.com/guinogueira2202">
-            <img src="./assets/github.png">
+            <span class="bi bi-github"></span>
             GitHub</a>
-          <a class="apresentacao__links__navegacao" href="https://instagram.com/">
-            <img src="./assets/instagram.png">
-            Instagram</a>
           <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/guinogueira2202">
-            <img src="./assets/linkedin.png">
+            <span class="bi bi-linkedin"></span>
             LinkedIn</a>
         </div>
       </section>
-      <img
+      <img loading="lazy"
         class="apresentacao__imagem"
         src="./assets/Imagem.svg"
         alt="Foto do Guilherme sorrindo de braços cruzados"
