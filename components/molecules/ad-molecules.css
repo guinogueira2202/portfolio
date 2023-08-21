@@ -1,0 +1,39 @@
+/*------------------------------*/
+/*MOLECULES NAVS*/
+.ad-organism-header__nav {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.ad-organism-header__nav--mobile {
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    display: none;
+}
+
+.nav__dropdown-menu {}
+/*------------------------------*/
+/*MOLECULES SECTIONS*/
+.ad-organism-main__section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+/*------------------------------*/
+/*MOLECULES LISTS*/
+.dropdown-menu__list {}
+/*------------------------------*/
+/*MOLECULES LISTS ITEMS*/
+.list__item {}
+/*------------------------------*/
+/*MOLECULES DIVS*/
+.section__block-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}

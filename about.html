@@ -5,32 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mim</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link href="./styles/reset.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
 </head>
-<body>
-    <header class="cabecalho">
-      <nav class="cabecalho__menu">
-        <a class="cabecalho__menu__link" href="index.html">Home</a>
-        <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-        <a class="cabecalho__menu__link--download" href="assets\cv_guinogueira-dev.pdf" download>Download CV</a>
-      </nav>
+
+<body class="body">
+    <header class="ad-organism-header">
+        <nav class="ad-organism-header__nav">
+            <a class="nav__link" href="index.html">Home</a>
+            <a class="nav__link" href="about.html">Sobre mim</a>
+            <a class="nav__link" href="portfolio.html"><img class="block-links__icone" src="/assets/icons8-portfolio-96.png" alt="Ícone de pasta de portfólio">Portfólio</a>
+            <a class="nav__link nav__link--download" href="assets\cv_guinogueira-dev.pdf" download>Download CV</a>
+        </nav>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
-            <p class="apresentacao__conteudo__texto">Saudações! Sou um entusiasta estudante de desenvolvimento web. Atualmente, cursando front-end, aprimorando minhas habilidades na plataforma de ensino online, Alura.</p>
-            <p class="apresentacao__conteudo__texto">Meu objetivo é me tornar um desenvolvedor full-stack, abraçando todas as camadas do desenvolvimento de software, desde a criação de interfaces até o back-end e a data science.</p>      
-            <p class="apresentacao__conteudo__texto">Trabalhei durante 8 anos na comunicação e audiovisual, criando conteúdos de vídeo para o YouTube. Agora, estou ansioso para embarcar nessa nova jornada profissional na área da tecnologia, onde me dedico com paixão ao estudo de desenvolvimento de softwares.</p>           
+
+    <main class="ad-organism-main">
+        <section class="ad-organism-main__section">
+            <h1 class="section__title">Sobre mim</h1>
+            <p class="section__text">Saudações! Sou um entusiasta estudante de desenvolvimento web. Atualmente, cursando front-end, aprimorando minhas habilidades na plataforma de ensino online, Alura.<br>
+                <br>Meu objetivo é me tornar um desenvolvedor full-stack, abraçando todas as camadas do desenvolvimento de software, desde a criação de interfaces até o back-end e a data science.<br>
+                <br>Trabalhei durante 8 anos na comunicação e audiovisual, criando conteúdos de vídeo para o YouTube. Agora, estou ansioso para embarcar nessa nova jornada profissional na área da tecnologia, onde me dedico com paixão ao estudo de desenvolvimento de softwares.
+            </p>           
         </section>
-        <img 
-        class="apresentacao__imagem"
-        src="./assets/Imagem.svg" 
-        alt="Foto de Guilherme sorrindo com os braços cruzados"
-        >        
+        <img class="ad-organism-main__image" src="./assets/Imagem.svg" alt="Foto de Guilherme sorrindo com os braços cruzados">        
     </main>
-    <footer class="rodape">
-        <p>Desenvolvido por Guilherme Nogueira.</p>
+
+    <footer class="ad-organism-footer">
+        <p class="ad-organism-footer__title">Desenvolvido por Guilherme Nogueira.</p>
     </footer> 
 </body>
 </html>

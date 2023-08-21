@@ -1,0 +1,22 @@
+.ad-organism-header {
+    padding: 4% 20% 0% 20%;
+}
+
+.ad-organism-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 7vh 20vw 0 20vw;
+    gap: 3em;
+    height: 100vh;
+}
+
+.ad-organism-footer {
+    padding: 1.5em;
+    text-align: center;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+    background: var(--color-tertiary);
+}
