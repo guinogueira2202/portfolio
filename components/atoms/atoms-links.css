@@ -1,8 +1,8 @@
 .nav__link {
     display: flex;
     color: var(--color-tertiary);
-    font-family: var(--font-secondary);
-    font-size: var(--font-size-text);
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-secondary);
     font-weight: var(--font-weight-primary);
     text-decoration: none;
     align-items: center;
@@ -28,14 +28,14 @@
     border-radius: 8px;
     color: var(--color-secondary);
     display: flex;
-    font-family: var(--font-secondary);
-    font-size: var(--font-size-text);
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-secondary);
     font-weight: var(--font-weight-primary);
     gap: 0.5em;
     justify-content: center;
-    padding: 0.5em 1em;
+    padding: 1em;
     text-decoration: none;
-    width: 55%;
+    width: 50%;
 }
 
 .block-links__link:hover {

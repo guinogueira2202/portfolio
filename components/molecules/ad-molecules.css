@@ -1,39 +1,92 @@
 /*------------------------------*/
 /*MOLECULES NAVS*/
 .ad-organism-header__nav {
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 80px;
 }
 
 .ad-organism-header__nav--mobile {
-    justify-content: center;
-    gap: 50px;
-    width: 100%;
     display: none;
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
 }
 
 .nav__dropdown-menu {}
+
 /*------------------------------*/
 /*MOLECULES SECTIONS*/
 .ad-organism-main__section {
-    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    width: 50%;
 }
+
+.ad-organism-main__section--portfolio {
+    width: 100%;
+}
+
 /*------------------------------*/
 /*MOLECULES LISTS*/
 .dropdown-menu__list {}
+
 /*------------------------------*/
 /*MOLECULES LISTS ITEMS*/
 .list__item {}
+
 /*------------------------------*/
 /*MOLECULES DIVS*/
 .section__block-links {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-direction: column;
     gap: 32px;
+    justify-content: space-between;
+}
+
+.section__block-texts {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: space-between;
+    margin: 3em 0;
+}
+
+.section__block-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.block-content__project-card {
+    background: var(--color-primary-hover);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    box-shadow: 0 0 100px var(--color-primary-hover);
+}
+
+.project-card__block-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 1.5em;
+}
+
+.block-texts__project-links {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+
+.project-links__icon-link-group {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    margin-top: 2em;
 }

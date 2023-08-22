@@ -1,4 +1,25 @@
 .section__text {
-    font-size: var(--font-size-text);
-    font-family: var(--font-secondary);
+    font-size: var(--font-size-secondary);
+    font-family: var(--font-family-secondary);
+}
+
+.block-texts__text {
+    font-size: var(--font-size-secondary);
+    font-family: var(--font-family-secondary);
+}
+
+.block-texts__project-description {
+    font-size: var(--font-size-tertiary);
+    font-family: var(--font-family-secondary);
+}
+
+.block-texts__project-tech {
+    font-size: var(--font-size-tertiary);
+    font-family: var(--font-family-secondary);
+}
+
+.icon-link-group__link {
+    color: var(--color-secondary);
+    font-size: var(--font-size-tertiary);
+    font-family: var(--font-family-secondary);
 }

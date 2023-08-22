@@ -13,15 +13,17 @@
     --color-tertiary-hover: #ffe167;
     /*------------------------------------*/
     /*FONTS*/
-    --font-primary: 'Krona One', sans-serif;
-    --font-secondary: 'Montserrat', sans-serif;
+    --font-family-primary: 'Krona One', sans-serif;
+    --font-family-secondary: 'Montserrat', sans-serif;
     /*------------------------------------*/
     /*FONTS SIZES*/
-    --font-size-title: 2.25rem;
-    --font-size-text: 1.5rem;
+    --font-size-primary: 2.25rem;
+    --font-size-secondary: 1.5rem;
+    --font-size-tertiary: 1.0rem;
     /*------------------------------------*/
     /*FONTS WEIGHTS*/
     --font-weight-primary: 600;
     --font-weight-secondary: 400;
+    --font-weight-tertiary: 300;
     /*------------------------------------*/
 }

@@ -1,22 +1,25 @@
 .ad-organism-header {
-    padding: 4% 20% 0% 20%;
+    display: flex;
+    padding: 4% 11% 0% 11%;
 }
 
 .ad-organism-main {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-start;
-    padding: 7vh 20vw 0 20vw;
+    padding: 7vh 5vw 10vh 5vw;
     gap: 3em;
-    height: 100vh;
+}
+
+.ad-organism-main--portfolio {
+    flex-direction: column;
+    gap: 7em;
 }
 
 .ad-organism-footer {
     padding: 1.5em;
     text-align: center;
     width: 100vw;
-    bottom: 0;
-    position: fixed;
     background: var(--color-tertiary);
 }
