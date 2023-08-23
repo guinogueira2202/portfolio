@@ -1,6 +1,6 @@
 .group-links__link {
     align-items: center;
-    color: var(--color-tertiary);
+    color: var(--color-secondary);
     display: flex;
     flex: 0 0 auto;
     font-family: var(--font-family-secondary);
