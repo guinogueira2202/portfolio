@@ -23,6 +23,17 @@
     background: var(--color-tertiary);
 }
 
+@media only screen and (min-width: 1920px) {
+    .ad-organism-header {
+        padding: 4% 10vw 0% 10vw;
+    }
+
+    .ad-organism-main {
+        padding: 5vh 15vw 10vh 15vw;
+    }
+}
+
+
 @media only screen and (max-width: 791px) {
     .ad-organism-main {
         flex-wrap: wrap-reverse;
