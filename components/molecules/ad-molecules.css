@@ -3,17 +3,16 @@
 .ad-organism-header__nav {
     align-items: center;
     display: flex;
-    gap: 80px;
+    width: 100vw;
+    padding: 0vh 5vw 0vh 5vw;
+
 }
 
-.ad-organism-header__nav--mobile {
-    display: none;
-    gap: 50px;
-    justify-content: center;
+.nav__group-links {
+    display: flex;
     width: 100%;
+    gap: 5em;
 }
-
-.nav__dropdown-menu {}
 
 /*------------------------------*/
 /*MOLECULES SECTIONS*/
@@ -22,19 +21,13 @@
     flex-direction: column;
     gap: 40px;
     width: 50%;
+    flex: 2 2 auto;
+    min-width: 40vw;
 }
 
 .ad-organism-main__section--portfolio {
     width: 100%;
 }
-
-/*------------------------------*/
-/*MOLECULES LISTS*/
-.dropdown-menu__list {}
-
-/*------------------------------*/
-/*MOLECULES LISTS ITEMS*/
-.list__item {}
 
 /*------------------------------*/
 /*MOLECULES DIVS*/
@@ -59,7 +52,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 5em;
 }
 
 .block-content__project-card {
@@ -67,7 +61,8 @@
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    width: 450px;
+    flex: 0 1 350px;
+    max-width: 350px;
     box-shadow: 0 0 100px var(--color-primary-hover);
 }
 
@@ -82,11 +77,103 @@
     display: flex;
     flex-direction: row;
     gap: 3em;
+    margin-top: 2em;
 }
 
 .project-links__icon-link-group {
     display: flex;
     flex-direction: row;
     gap: 0.5em;
-    margin-top: 2em;
+}
+
+/*------------------------------------------*/
+/*MEDIA QUERIES*/
+.ad-organism-header__nav--mobile, .menu-label__list {
+    display: none;
+}
+
+@media only screen and (max-width: 791px) {
+    .ad-organism-header__nav {
+        display: none;
+    }
+    .ad-organism-header__nav--mobile {
+        display: flex;
+        padding: 1em 3em;
+        gap: 50px;
+        width: 100%;
+    }
+    .nav__menu-label {
+        position: relative;
+    }
+        
+    .nav__checkbox:checked ~ .nav__menu-label {
+        background: var(--color-tertiary);
+        border-radius: 10px 10px 0 0;
+    }
+        
+    .nav__checkbox:checked ~ .nav__menu-label > .menu-label__list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 1em;
+        background: var(--color-tertiary);
+        gap: 1em;
+        width: 10em;
+        border-radius: 0 15px 15px 15px;
+        box-shadow: 15px 15px 50px var(--color-primary-hover);
+    }
+    .list__item {
+        display: flex;
+        list-style-type: none;
+    }
+        
+    .nav__checkbox:checked ~ .nav__menu-label > .menu-label__image {
+        background: url(/assets/portfolio/icons8-menu-black.svg);
+    }
+    
+    .nav__group-links {
+        display: flex;
+        width: 100%;
+        gap: 3em;
+    }
+}
+
+@media only screen and (max-width: 677px) {
+    .nav__group-links {
+        gap: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 595px) {
+    .section__block-texts {
+        margin: 1em 0;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .ad-organism-header__nav--mobile {
+        display: flex;
+        padding: 1em 1em;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .block-content__project-card {
+        flex: 0 1 350px;
+        min-width: 250px;
+    }
+
+    .project-card__block-texts {
+        gap: 1em;
+        padding: 1em;
+    }
+
+    .block-texts__project-links {
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        margin-top: 1em;
+    }
 }

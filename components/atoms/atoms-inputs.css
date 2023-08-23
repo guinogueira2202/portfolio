@@ -2,8 +2,3 @@
 .nav__checkbox {
     display: none;
 }
-
-/*ATOMS LABELS*/
-.nav__menu-icon {
-    background: url(/assets/icons8-menu-black.svg) no-repeat center contain;
-}

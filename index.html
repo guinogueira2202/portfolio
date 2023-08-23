@@ -12,26 +12,31 @@
   <body class="body">
     <header class="ad-organism-header">
       <nav class="ad-organism-header__nav">
-        <a class="nav__link" href="index.html">Home</a>
-        <a class="nav__link" href="about.html">Sobre mim</a>
-        <a class="nav__link" href="portfolio.html"><img class="block-links__icone" src="/assets/icons8-portfolio-96.png" alt="Ícone de pasta de portfólio">Portfólio</a>
-        <a class="nav__link nav__link--download" href="assets\cv_guinogueira-dev.pdf" download>Download CV</a>
+        <div class="nav__group-links">
+          <a class="group-links__link" href="index.html"><img class="block-links__icone" src="/assets/icons8-home-90.png" alt="Ícone da home">Home</a>
+          <a class="group-links__link" href="about.html"><img class="block-links__icone" src="/assets/icons8-about-me-50.png" alt="Ícone de sobre mim">Sobre mim</a>
+          <a class="group-links__link" href="portfolio.html"><img class="block-links__icone" src="/assets/icons8-portfolio-96.png" alt="Ícone de portfólio">Portfólio</a>
+          <a class="group-links__link group-links__link--download" href="assets\cv_guinogueira-dev.pdf" download><img class="block-links__icone" src="/assets/icons8-download-90.png" alt="Ícone de download">Download CV</a>
+        </div>
       </nav>
       
       <nav class="ad-organism-header__nav ad-organism-header__nav--mobile">
         <input class="nav__checkbox" type="checkbox" id="menu-mobile">
-        <label class="nav__menu-icon" for="menu-mobile">Menu</label>
-        <nav class="nav__dropdown-menu">
-          <ul class="dropdown-menu__list">
+        <label class="nav__menu-label" for="menu-mobile">
+          <span class="menu-label__image"></span>
+          <ul class="menu-label__list">
             <li class="list__item">
-              <a class="nav__link nav__link--mobile" href="index.html">Home</a>
+              <a class="group-links__link group-links__link--mobile" href="index.html"><img class="block-links__icone" src="/assets/icons8-home-90-black.png" alt="Ícone da home">Home</a>
             </li>
             <li class="list__item">
-              <a class="nav__link nav__link--mobile" href="about.html">Sobre mim</a>
+              <a class="group-links__link group-links__link--mobile" href="about.html"><img class="block-links__icone" src="/assets/icons8-about-me-50-black.png" alt="Ícone de sobre mim">Sobre mim</a>
+            </li>
+            <li class="list__item">
+              <a class="group-links__link group-links__link--mobile" href="portfolio.html"><img class="block-links__icone" src="/assets/icons8-portfolio-90-black.png" alt="Ícone de portfólio">Portfólio</a>
             </li>
           </ul>
-        </nav>
-        <a class="nav__link nav__link--download" href="assets\cv_guinogueira-dev.pdf" download>Download CV</a>
+        </label>
+        <a class="group-links__link group-links__link--download" href="assets\cv_guinogueira-dev.pdf" download><img class="block-links__icone" src="/assets/icons8-download-90.png" alt="Ícone de download">Download CV</a>
       </nav>
     </header>
 

@@ -1,6 +1,6 @@
 .ad-organism-header {
     display: flex;
-    padding: 4% 11% 0% 11%;
+    padding: 4% 0% 0% 0%;
 }
 
 .ad-organism-main {
@@ -20,6 +20,12 @@
 .ad-organism-footer {
     padding: 1.5em;
     text-align: center;
-    width: 100vw;
     background: var(--color-tertiary);
+}
+
+@media only screen and (max-width: 791px) {
+    .ad-organism-main {
+        flex-wrap: wrap-reverse;
+        padding: 2vh 5vw 5vh 5vw;
+    }
 }

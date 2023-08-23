@@ -27,3 +27,23 @@
     --font-weight-tertiary: 300;
     /*------------------------------------*/
 }
+
+@media only screen and (max-width: 921px) {
+    :root {
+        /*------------------------------------*/
+        /*FONTS SIZES*/
+        --font-size-primary: 2rem;
+        --font-size-secondary: 1.2rem;
+        --font-size-tertiary: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    :root {
+        /*------------------------------------*/
+        /*FONTS SIZES*/
+        --font-size-primary: 1.5rem;
+        --font-size-secondary: 1rem;
+        --font-size-tertiary: 0.8rem;
+    }
+}

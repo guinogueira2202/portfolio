@@ -13,6 +13,7 @@
     font-family: var(--font-family-primary);
     font-size: var(--font-size-secondary);
     font-weight: var(--font-weight-secondary);
+    text-align: center;
 }
 
 .ad-organism-footer__title {

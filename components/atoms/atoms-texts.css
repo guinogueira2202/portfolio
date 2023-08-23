@@ -6,6 +6,7 @@
 .block-texts__text {
     font-size: var(--font-size-secondary);
     font-family: var(--font-family-secondary);
+    text-align: center;
 }
 
 .block-texts__project-description {
