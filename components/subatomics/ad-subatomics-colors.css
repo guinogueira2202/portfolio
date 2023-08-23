@@ -1,0 +1,54 @@
+@import './../themes/variables.css';
+/*------------------------------------*/
+/*BACKGROUNDS*/
+.background-primary {
+    background: var(--color-primary);
+}
+
+.background-secondary {
+    background: var(--color-secondary);
+}
+
+.background-tertiary {
+    background: var(--color-tertiary);
+}
+/*------------------------------------*/
+/*BACKGROUND HOVERS*/
+.background-primary-hover {
+    background: var(--color-primary-hover);
+}
+
+.background-secondary-hover {
+    background: var(--color-secondary-hover);
+}
+
+.background-tertiary-hover {
+    background: var(--color-tertiary-hover);
+}
+/*------------------------------------*/
+/*COLORS*/
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-secondary {
+    color: var(--color-secondary);
+}
+
+.color-tertiary {
+    color: var(--color-tertiary);
+}
+/*------------------------------------*/
+/*COLORS HOVERS*/
+.color-primary:hover {
+    color: var(--color-primary-hover);
+}
+
+.color-secondary:hover {
+    color: var(--color-secondary-hover);
+}
+
+.color-tertiary:hover {
+    color: var(--color-tertiary-hover);
+}
+/*------------------------------------*/

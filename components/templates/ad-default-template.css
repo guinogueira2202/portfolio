@@ -1,0 +1,7 @@
+@import './../themes/variables.css';
+
+.body {
+    background: var(--color-primary);
+    box-sizing: border-box;
+    color: var(--color-secondary);
+}

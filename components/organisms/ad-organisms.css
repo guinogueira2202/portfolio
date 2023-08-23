@@ -1,0 +1,31 @@
+.ad-organism-header {
+    display: flex;
+    padding: 4% 0% 0% 0%;
+}
+
+.ad-organism-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 7vh 5vw 10vh 5vw;
+    gap: 3em;
+}
+
+.ad-organism-main--portfolio {
+    flex-direction: column;
+    gap: 7em;
+}
+
+.ad-organism-footer {
+    padding: 1.5em;
+    text-align: center;
+    background: var(--color-tertiary);
+}
+
+@media only screen and (max-width: 791px) {
+    .ad-organism-main {
+        flex-wrap: wrap-reverse;
+        padding: 2vh 5vw 5vh 5vw;
+    }
+}

@@ -1,0 +1,38 @@
+.section__title {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-primary);
+    font-weight: var(--font-weight-secondary);
+}
+
+.section__title--strong {
+    color: var(--color-tertiary);
+}
+
+.block-links__title {
+    color: var(--color-secondary);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-secondary);
+    font-weight: var(--font-weight-secondary);
+    text-align: center;
+}
+
+.ad-organism-footer__title {
+    color: var(--color-primary);
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-secondary);
+    font-weight: var(--font-weight-secondary);
+}
+
+.block-texts__title {
+    color: var(--color-secondary);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-primary);
+    font-weight: var(--font-weight-secondary);
+}
+
+.block-texts__project-title {
+    color: var(--color-secondary);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-secondary);
+    font-weight: var(--font-weight-secondary);
+}
